@@ -1,0 +1,29 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+       <title>THENI</title>
+       
+        
+    </head>
+
+     <body>
+        <center><img src="{% static 'theni.PNG' %}" usemap="#THENI" height="610" width="1350"></center>
+        <map name="THENI">
+
+
+    <area shape="rect" coords="593,144,504,120" title="Theni" href="">
+
+    <area shape="rect" coords="174,124,15,140" title="Bodinayakanur" href="{% url 'bodi' %}" name="bodi.html">
+ 
+    
+    <area shape="rect" coords="423,150,469,100" title="Boothipuram" href="{% url 'boothi' %}" name="boothi.html">
+
+    <area shape="rect" coords="293,209,179,242" title="Meenachipuram" href="{% url 'meena' %}" name="meena.html">
+
+    <area shape="rect" coords="530,223,418,382" title="Virapandi" href="{% url 'virapandi' %}" name="virapandi.html">
+  
+
+        </map>  
+        </body>
+</html>
